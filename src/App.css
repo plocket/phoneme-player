@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +35,61 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+body {
+  padding: 1em;
 }
+
+body, input[type="text"]  {
+  font-size: 1.5em;
+}
+
+.wordOutput span.playing {
+  font-weight: bold;
+}
+
+.wordOutput span:after {
+  content: '•';
+}
+
+.wordOutput span:last-child:after {
+  content: '•';
+}
+
+button {
+  font-size: 1em;
+}
+
+.control-label {
+  display: inline-block;
+  width: 110px;
+  margin-top: .5em;
+}
+
+/* Audio UI */
+/*.audiojs {
+  transform: scaleX(.5);
+  width: 38px;
+  display: inline-block;
+}
+.audiojs .time, .audiojs .scrubber {
+  display: none;
+}*/
+
+/* Playlist basic layout */
+/*li.phoneme {
+  display: inline-block;
+}
+li.phoneme::after {
+  content: ' • ';
+}
+li.phoneme:last-child:after {
+  display: inline-block;
+  content: '';
+}*/
+
+/* Playlist other visual indicators */
+/*.playing {
+  font-weight: bold;
+}*/
